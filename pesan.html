@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pesan untuk Admin</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.wrap{
+		background: white;
+		}
+ 
+		/*bagian header*/
+		.wrap .header{
+		background: white;
+		/*height: 50px;*/
+		padding: 10px 5px;
+		text-align: center;
+		}
+ 
+		/*akhir header*/
+ 
+		/*bagian menu*/
+		.wrap .menu{
+		background: white;
+		}
+ 
+		.wrap .menu ul{
+		padding: 0px;
+		margin: 0px;
+		background: #03a9f4;
+		overflow: hidden;
+		border: 0.5px solid #e7e7e7;
+		}
+ 
+		.wrap .menu ul li{
+		float: left;
+		list-style-type: none;
+		padding: 14px 16px;
+		color: white;
+		font-family: verdana;
+		font-size: 15px;
+		overflow: hidden;
+		}
+		.wrap .menu ul li a{
+			color: white;
+			text-decoration: none;
+			margin-left: 100px;
+		}
+		.wrap .menu ul li a:hover{
+			background-color: #f1f1f1;
+			color: grey;
+			padding: 14px 16px;
+		}
+
+		legend, label{
+			font-family: verdana;
+		}
+
+		/*akhir menu*/
+		.clear{
+		clear: both;
+		}
+
+		.wrap .footer{
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+		<table> 
+			<tr> 
+				<td><img src="polindra.png" style="width: 120px; margin-left: 300px;"></td>
+				<td> <h1 style="margin-left: 30px; font-family: verdana; font-size: 30px;">TEKNIK INFORMATIKA</h1>
+					<h2 style="font-family: verdana; margin-left: 30px;">POLITEKNIK NEGERI INDRAMAYU</h2>
+				</td>
+			</tr>
+		</table>		
+		</div>
+		<div class="menu">
+			<ul>
+				<li> <a href="web profile.html" style="margin-left: 200px;"> BERANDA</a></li>
+				<li> <a href="prodi.html">PROGRAM STUDI</a></li>
+				<li> <a href="#">LABORATORIUM</a></li>
+				<li> <a href="pesan.html">PESAN</a></li>
+			</ul>
+		</div>	
+		<div>
+				<form action="#">
+				<fieldset>
+					<legend>Pesan Untuk Admin</legend>
+					<p>
+						<label> Nama : </label>
+						<input type="text" name="nama" placeholder="Nama lengkap anda...">
+					</p>
+					<p>
+						<label> Email :</label>
+						<input type="Email" name="email" placeholder="Email anda...">
+					</p>
+					<p>
+						<label>Pesan : </label>
+						<textarea name="pesan"></textarea>
+					</p>
+					<p>
+						<input type="submit" name="submit" value="Kirim">
+					</p>
+				</fieldset>
+				</form>
+			</div>
+		</div>
+		</div>
+		<div class="clear"></div>
+		<div class="footer" style="font-family: verdana; text-align: center; background-color: #03a9f4; color: white; margin-top: 300px;"> 
+			<p> JL. Raya Lohbener Lama No.08, Kec.Lohbener, Kab.Indramayu</p>
+			<p>Telp (0234) 5746464 Email : ti@polindra@ac.id</p>
+			<p>
+			&#169; Copyright Jurusan Teknik Informatika 2019. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
